@@ -1,15 +1,56 @@
 <!DOCTYPE HTML>
-<html ng-app="helloWorldApp">
+<html ng-app="HelloWorldApp" lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
   <title>Victor H. Garcia - Oct 01 2019</title>
-  <link rel="stylesheet" href="styles/helloworld.css" />
-  <script src="lib/angular-1.0.8/angular.js"></script>
-  <script src="js/helloworld/app.js"></script>
-  <script src="js/helloworld/controllers.js"></script>
+  <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+  <script src="assets/lib/angular-1.0.8/angular.js"></script>
+  <script src="assets/js/helloworld/app.js"></script>
+  <script src="assets/js/helloworld/controllers.js"></script>
+  <script src="assets/js/helloworld/scripts.js"></script>
+  <script src="assets/lib/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="javascript: void(0);">Free Fire Sample Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
   <div ng-controller="HelloWorldCtrl">
     <h1>Hello World!</h1>
   </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      initialPageData();
+    });
+  </script>
 </body>
 </html>
+
