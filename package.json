@@ -1,0 +1,10 @@
+{
+  "name": "simple-html-angularjs-code",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "karma": "^4.3.0",
+    "karma-firefox-launcher": "0.1.0",
+    "karma-jasmine": "0.1.3"
+  }
+}
