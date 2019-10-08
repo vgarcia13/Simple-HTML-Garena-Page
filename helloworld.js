@@ -3,7 +3,7 @@ var file = new static.Server();
 require('http').createServer(function(request, response) {
   request.addListener('end', function() {
     file.serve(request, response, function (e, res) {
-        fileServer.serveFile('/helloworld.html', request, response);
+        file.serveFile('/helloworld.html', request, response);
     });
   }).resume();
 }).listen(process.env.PORT || 3000);
