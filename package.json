@@ -2,6 +2,10 @@
   "name": "simple-html-angularjs-code",
   "version": "0.0.1",
   "private": true,
+  "main": "helloworld.js",
+  "scripts": {
+    "start": "node helloworld.js"
+  },
   "dependencies": {
     "karma": "^4.3.0",
     "karma-firefox-launcher": "0.1.0",
